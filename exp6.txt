@@ -1,1 +1,2 @@
 cloning the remote repository is done 
+waiting for conflicts
