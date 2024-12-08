@@ -2,3 +2,11 @@ first we need to clone
 and change into paRENT REMOTE REPO
 changes in remote filwe and fetch 
 and rebase 
+after the creating feature branch 
+we need to go the remote repo and do changes imn same file a
+fetch 
+rebase      we will get conflicts {resolving conflicts are just we need remove special charaters}
+and last we need pull
+
+
+for 6 th one we need to switch to master ,and merge the feature branch
