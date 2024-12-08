@@ -1,0 +1,113 @@
+lab 1
+
+create a file .txt
+git add . /git add filename  /// commit {git commit -m"message"}
+show status{git status}
+
+lab 2
+
+create file.txt
+git add ,,commit==git commit -m"message"
+make new branch fb1{git checkout -b fb1}
+make changes in file ,save and commit it
+switch to master {git checkout master /main}
+and merge feature branch to master{git merge fb1}
+delete the branch {git branch -d branch name}
+
+lab 3
+{write the command to stash ypur changes switch branches and then apply the stashed changes}
+
+create a text file
+save and commit
+switch to feature branch
+make changes in the same file 
+stash it{git stash save}
+switch to master
+create a new feature branch 2
+apply the stashed content from 1  {git stash apply}
+stage {git add .}
+commit it
+switch to master 
+merge the 2 feature branch
+show stash list  {git stash list}
+remove ,pop.the stash  { git satsh pop(stash index)}/git satshdrop(stash index)
+
+
+lab 4
+just cloning the remote repository using      {git clone (link)}
+
+
+lab 5 and lab 6
+{fetch the latest changes from a remote repository and rebase your local branch onto the updated remote branch}
+{write command to merge feature branch into the master while providing costume message for the merge}
+
+
+clone the remote repository{git clone(link)}
+chnage the remote repo{(cd gitiotlab}
+do changes in the remot repo
+fetch the changes{(git fetch origin}
+rebase {git rebase origin/main}
+create a new feature branch 
+make the same file that you have chages in the remote
+save it
+commit it
+and then again make changes in remote repo
+fetch it
+rebase
+now the conflicts will arise [   if it opens in the notepad =remove the special charaters]
+resolve them
+save it
+git rebase __continue
+and the push it   [git push origin branch name]
+
+
+for 6th one 
+1.switch to master [git checkout master]
+2.git merge branch name
+
+
+lab 7  [git tags and relase]
+1.create a file
+2.make changes for 5 times
+give tag name
+111.[git tag tagname commitid]
+git log to show commit details
+to display the tags [git tag -l]
+to delete the tag [git tag -d tagname]
+
+
+lab 8  [advance git opertions]
+{cherry pick}
+
+create a folder with file
+intialize git{ git init}
+craete new feature branch
+modify the file ,satge,commit it
+switch to master
+create a new feature branch 2
+now cherry pick in this branch
+{{[[git cherry-pick <( start commit id)>^..<(end commit id>)
+if conflicts arise resolve the judt by closing the until conflicts goes  [open file ,save it]
+git cherry-pick --continue
+
+
+lab 9
+display the specific commit   [ git show commit id]
+display all the commits   [git lon -n no of commit]
+
+
+
+lab 10
+showing the commits in specific time 
+   [[[[git log --author="kiran kumar" --since="year-mon-date" --until="year-mon-date"]]]]
+
+
+lab 11
+display the last 5 commits 
+   [[[[ git log -n 5]]]]
+
+
+lab 12
+reverting
+  [git revert commit id]]]
+
