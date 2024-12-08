@@ -1,0 +1,4 @@
+first we need to clone 
+and change into paRENT REMOTE REPO
+changes in remote filwe and fetch 
+and rebase 
